@@ -13,8 +13,11 @@
 
 Змінні, що відповідають за оформлення вікна програми: **window, frame_up, frame_down, frame_table**
 **window** створює основне вікно програми
+
 **frame_up** створює фрейм (рамку) з батьківським вікном window.
+
 **frame_down** створює фрейм frame_down з батьківським вікном window.
+
 **frame_table** створює фрейм frame_table з батьківським вікном window.
 
 Функції, які виконують основний функціонал програми: **show, insert, to_update, confirm, to_remove, to_search, delete_command**
