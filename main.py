@@ -144,6 +144,8 @@ def to_search():
 
     for item in data:
         tree.insert('', 'end', values = item)
+        
+    e_search.delete(0, 'end')
 
 app_name = Label(frame_up, text="Phonebook", height=1, font=('Verdana 17 bold'), bg=co2, fg=co0)
 app_name.place(x=5, y=5)
